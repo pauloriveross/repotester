@@ -1,0 +1,31 @@
+body{
+    background-color: gray;
+}
+
+
+.contenedor{
+    background-color: rgb(84, 28, 136);
+    color: rgb(252, 252, 252);
+    padding: 50px;
+    margin: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: 4px 6px 10px 15px rgba(0, 0, 0, 0.404);
+    
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    box-shadow: 4px 6px 10px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.title:hover{
+    background-color: rgb(100, 28, 167);
+    transform: scale(1.1);
+    box-shadow: 4px 6px 10px 15px rgba(0, 0, 0, 0.2);
+
+}
